@@ -1,26 +1,22 @@
 # WeatherHash
 
-TODO: Write a gem description
+This gem was created to serve as an educational tool to help students understand hashes and arrays using a real-world context. It pulls weather data from the Yahoo! weather API.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'weather_hash'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install this gem by running the following command in the terminal:
 
     $ gem install weather_hash
 
 ## Usage
 
-TODO: Write usage instructions here
+Use this gem inside your code:
+
+    require 'weather_hash'
+
+    WeatherHash.lookup("Chicago", "IL")
+
+The response will be a hash containing current weather data.
 
 ## Contributing
 
