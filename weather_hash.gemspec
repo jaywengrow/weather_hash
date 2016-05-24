@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jaywngrw@gmail.com"]
   spec.summary       = %q{A gem to receive weather data from the Yahoo Weather API}
   spec.description   = %q{A gem to receive weather data from the Yahoo Weather API. The data is returned as a simple hash.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jaywengrow/weather_hash"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
